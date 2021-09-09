@@ -1,0 +1,21 @@
+v1:
+  user:
+    request: get
+    type: select
+    from: users
+    values: everything
+    match: username
+
+  user2:
+    request: get
+    type: select
+    from: users
+    values: everything
+
+v2:
+  getuser:
+    request: get
+    type: select
+    from: users
+    values: everything
+    match: username

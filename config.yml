@@ -1,0 +1,10 @@
+# db login
+db:
+  host: localhost # domain / localhost
+  username: root # database username
+  password: false # database password, false if no password
+  database: semiql # database name
+  type: mysql # type of database (currently only mysql)
+
+# general config
+dashboard: true # enable statistics dashboard
