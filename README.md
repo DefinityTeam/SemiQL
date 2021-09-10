@@ -1,5 +1,6 @@
 # SemiQL
-The Solution to Database-related APIs.
+The Solution to Database-related APIs. <br>
+Join the <a href="https://discord.gg/rvpvHG4zvn">support server</a>
 
 ## About
 SemiQL allows you to create simple and fast JSON APIs connected with your database with only a few lines of YAML configuration per endpoint.
