@@ -35,7 +35,7 @@ exports.createSemiQLAPI = function (config, requests) {
 
                             connection.query(`SELECT ${values} FROM ${endpoint[1].from} ${endpoint[1].match ? `WHERE ${endpoint[1].match} = '${req.url.split('/')[3]}'` : ``}`, (error, results) => {
 
-                                if (error) return res.send('error: ' + error);
+                                if (error) return res.send(JSON.stringify({error: error}));
                                 //console.log(`SELECT ${values} FROM ${endpoint[1].from} ${endpoint[1].match ? `WHERE ${endpoint[1].match} = '${req.url.split('/')[3]}'` : ``}`);
                                 //res.send('<br>hi');
                                 //console.log(results);
