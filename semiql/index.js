@@ -62,7 +62,6 @@ exports.createSemiQLAPI = function (config, requests) {
         });
     }
 
-    app.listen(5000)
-    console.log('online');
+    app.listen(5000, () => { console.log('[SEMIQL]: API online') })
 
 }
