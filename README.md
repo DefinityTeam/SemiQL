@@ -26,7 +26,7 @@ In relation to the branch `master`
 | Name | Status |
 | --- | ----------- |
 | MySQL/MariaDB | Supported |
-| MongoDB | Unsupported (Developing on /mongodb) |
+| MongoDB | Unsupported |
 | PostgreSQL | Unsupported |
 
 ### MySQL Statements
