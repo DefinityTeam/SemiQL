@@ -4,7 +4,11 @@
   "description": "SemiQL",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js",
+    "ts-start": "ts-node index.ts",
+    "watch": "nodemon index.ts",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
   },
   "repository": {
     "type": "git",
@@ -22,6 +26,9 @@
   },
   "homepage": "https://github.com/sudocode1/semiql#readme",
   "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/mysql": "^2.15.19",
+    "@types/yaml": "^1.9.7",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
     "yaml": "^1.10.2"

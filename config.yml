@@ -1,7 +1,7 @@
 # db login
 db:
-  host: localhost # domain / localhost
-  username: root # database username
+  host: 127.0.0.1 # domain / localhost
+  username: usr # database username
   password: false # database password, false if no password
   database: semiql # database name
   type: mysql # type of database (currently only mysql)
